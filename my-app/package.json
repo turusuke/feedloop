@@ -1,0 +1,34 @@
+{
+  "name": "with-typescript",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "prettier:check": "prettier --check \"{components,pages}/**/*.{js,tsx}\"",
+    "prettier:write": "prettier --write \"{components,pages}/**/*.{js,tsx}\""
+  },
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "firebase": "^8.2.1",
+    "next": "latest",
+    "postcss": "^8.2.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-google-button": "^0.7.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "prettier": "^2.2.1",
+    "typescript": "4.0"
+  },
+  "license": "MIT"
+}
